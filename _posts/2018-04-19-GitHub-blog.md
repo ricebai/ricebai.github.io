@@ -17,7 +17,7 @@ tags:
 
 ### 创建一个库
 
-<img src="../img/posts/github-blog/create_repository.jpg" />
+<img src="https://ricebai.github.io/img/posts/github-blog/create_repository.jpg" />
 
 在 GitHub 上创建一个存储库，用于存放你的博客项目
 
@@ -60,7 +60,7 @@ jekyll 目录结构
 
 进入我的仓库，选择 `settings` -> `Options`：
 
-<img src="../img/posts/github-blog/choose_theme.jpg" />
+<img src="https://ricebai.github.io/img/posts/github-blog/choose_theme.jpg" />
 
 可以参考：[GitHub Pages](https://pages.github.com)
 
