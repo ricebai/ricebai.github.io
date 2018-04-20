@@ -47,6 +47,7 @@ gems: [jekyll-paginate]
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
+highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
@@ -63,11 +64,11 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 9b46b433e999731a4ec8,
-  clientSecret: a7db0fbb49936a77944bcff59108cac3fc71f910,
-  repo: ricebai.github.io,  #存储你评论 issue 的 Github 仓库名（建议直接用 GitHub Page 的仓库名）
-  owner: ricebai,
-  admin: ricebai, //这个仓库的管理员，可以有多个，用数组表示，一般写自己
+  clientID: 9b46b433e999731a4ec8
+  clientSecret: a7db0fbb49936a77944bcff59108cac3fc71f910
+  repo: ricebai.github.io  #存储你评论 issue 的 Github 仓库名（建议直接用 GitHub Page 的仓库名）
+  owner: ricebai
+  admin: ricebai          #这个仓库的管理员，可以有多个，用数组表示，一般写自己
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
