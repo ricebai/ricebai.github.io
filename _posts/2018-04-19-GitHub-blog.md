@@ -22,6 +22,10 @@ tags:
 
 可以参考：[GitHub Pages](https://pages.github.com)
 
+### 创建博客
+
+在 `_posts` 目录下创建你的博客文件，但名字一定要用英文，不然下面集成的 `Gitalk` 评论插件无法自动创建目录。
+
 ### 集成 Gitalk
 
 可以参考：[为博客添加 Gitalk 评论插件](http://qiubaiying.top/2017/12/19/为博客添加-Gitalk-评论插件/)
