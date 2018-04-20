@@ -4,7 +4,7 @@ title:      GitHub 搭建个人博客
 subtitle:   学习用 GitHub 与 Jekyll 搭建的 个人博客
 date:       2018-04-19
 author:     ricebai
-header-img: img/post-bg-debug.png
+header-img: img/posts/github-blog/post-bg-debug.png
 catalog: true
 tags:
     - GitHub
