@@ -1,0 +1,113 @@
+# Site settings
+title: Ricebai Blog
+SEOTitle: 90年代号的博客 | Ricebai Blog
+header-img: img/post-bg-desk.jpg
+email: ricebai.me@gmail.com
+description: "Every failure is leading towards success."
+keyword: "Ricebai, Ricebai Blog, 90年代号的博客"
+url: "http://ricebai.github.io"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog #hosted on 'host/blog'
+github_repo: "https://github.com/ricebai/ricebai.github.io.git" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Craft life...Dont let life Craft you💪"
+sidebar-avatar: /img/about-ricebai.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+# SNS settings
+RSS: false
+weibo_username:     ricebai
+#zhihu_username:     ricebai
+github_username:    ricebai
+twitter_username:   ricebai
+#facebook_username:  ricebai
+# linkedin_username:  firstname-lastname-idxxxx
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+#highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: ricebai
+
+# Netease setttings
+#netease_comment: false
+
+
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 9b46b433e999731a4ec8,
+  clientSecret: a7db0fbb49936a77944bcff59108cac3fc71f910,
+  repo: ricebai.github.io,  #存储你评论 issue 的 Github 仓库名（建议直接用 GitHub Page 的仓库名）
+  owner: ricebai,
+  admin: ricebai, //这个仓库的管理员，可以有多个，用数组表示，一般写自己
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+
+# Analytics settings
+# Baidu Analytics 
+# ba_track_id: [your track id]
+
+# Google Analytics
+ga_track_id: 'UA-117858908-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto
+
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "Findro",
+        href: "https://findor.me/ricebai"
+    },{
+        title: "Telegram",
+        href: "https://t.me/ricebai"
+    },{
+        title: "Apple",
+        href: "https://apple.com"
+    },{
+        title: "Apple Developer",
+        href: "https://developer.apple.com/"
+    }
+]
