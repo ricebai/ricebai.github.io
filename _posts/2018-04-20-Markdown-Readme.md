@@ -12,9 +12,9 @@ tags:
 
 
 
-# Markdown 语法官方说明简体中文版
+### Markdown 语法官方说明简体中文版
 
-## Markdown 文件
+#### Markdown 文件
 
 
 ![Markdown](http://markdown.tw/images/208x128.png)
@@ -27,7 +27,7 @@ Document. Please refer to [Markdown: Syntax][eng-doc].
 
 <!-- more -->
 
-## Markdown: Syntax
+### Markdown: Syntax
 
 * [概述](#overview)
     * [哲学](#philosophy)
@@ -57,7 +57,7 @@ Document. Please refer to [Markdown: Syntax][eng-doc].
 
 * * *
 
-## 概述
+### 概述
 <a id="overview"></a>
 
 ### 哲学
