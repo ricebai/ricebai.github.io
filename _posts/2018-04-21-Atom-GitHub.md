@@ -3,8 +3,8 @@ layout:     post
 title:      Atom & GitHub
 subtitle:   Atom 中使用 GitHub，打造属于自己的 GitHub 编辑器
 date:       2018-04-21
-author:     ricebai|abck|asdf|
-header-img: img/posts/atom/post-bg-atom.jpg
+author:     ricebai
+header-img: img/posts/atom/post-bg-atom.png
 catalog: true
 tags:
     - Markdown
@@ -23,7 +23,7 @@ tags:
 
 #### Atom 主题修改
 
-打开 *Atom* ，File - Settings - Themes 查找插件
+打开 *Atom* ，File - Settings - Themes 设置主题
 
 <img src="https://ricebai.github.io/img/posts/atom-github/settings-themes.jpg" />
 
