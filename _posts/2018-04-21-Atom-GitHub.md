@@ -4,7 +4,7 @@ title:      Atom & GitHub
 subtitle:   Atom 中使用 GitHub，打造属于自己的 GitHub 编辑器
 date:       2018-04-21
 author:     ricebai
-header-img: img/posts/atom/post-bg-atom.png
+header-img: img/posts/atom-github/post-bg-atom.png
 catalog: true
 tags:
     - Markdown
