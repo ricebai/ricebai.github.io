@@ -725,21 +725,6 @@ Markdown 会转成：
 2. 列与列之间用管道符号 “`|`” 隔开，原生方式的表格每一行的两边也要有管道符。
 3. 可在第二行指定不同列单元格内容的对齐方式，默认为左对齐，在 “`-`” 右边加上 “`:`” 为右对齐，在 “`-`” 两侧同时加上 “`:`” 为居中对齐。
 
-简单方式：
-```
-Name | Academy | score
-- | :-: | -:
-Harry Potter | Gryffindor| 90
-Hermione Granger | Gryffindor | 100
-Draco Malfoy | Slytherin | 90
-```
-Name | Academy | score
-- | :-: | -:
-Harry Potter | Gryffindor| 90
-Hermione Granger | Gryffindor | 100
-Draco Malfoy | Slytherin | 90
-
-原生方式：
 ```
 | Name | Academy | score |
 | - | :-: | -: |
@@ -747,6 +732,7 @@ Draco Malfoy | Slytherin | 90
 | Hermione Granger | Gryffindor | 100 |
 | Draco Malfoy | Slytherin | 90 |
 ```
+
 | Name | Academy | score |
 | - | :-: | -: |
 | Harry Potter | Gryffindor| 90 |
