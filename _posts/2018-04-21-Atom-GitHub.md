@@ -27,11 +27,18 @@ tags:
 
 <img src="https://ricebai.github.io/img/posts/atom-github/settings-themes.jpg" />
 
-### Markdown 的使用
+#### Atom 插件安装和卸载
 
-打开 *Atom* ，File - Settings - Install 查找插件
+打开 *Atom* ，File - Settings - Install 查找插件，Install 安装插件
 
 <img src="https://ricebai.github.io/img/posts/atom-github/settings-install.jpg" />
+
+打开 *Atom* ，File - Settings - Packages 设置、卸载、禁用插件
+
+> Settings 设置，Uninstall 卸载，Disable 禁用
+<img src="https://ricebai.github.io/img/posts/atom-github/settings-packages.jpg" />
+
+### Markdown 的使用
 
 #### 推荐 Markdown 插件：
 
