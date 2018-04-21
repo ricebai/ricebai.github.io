@@ -4,6 +4,7 @@
 准备好开始了吗？从零开始创建你自己的博客。😅
 
 ### 创建一个库
+### 创建一个库
 
 <img src="https://ricebai.github.io/img/posts/github-blog/create_repository.jpg" />
 
