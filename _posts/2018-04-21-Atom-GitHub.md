@@ -70,3 +70,15 @@ Atom 官网也有操作描述，[github.atom.io](https://github.atom.io/).
 安装 Git：[Git Dwonload](https://git-scm.com/downloads)
 
 配置 SSH：[（Git 学习）Git SSH Key 创建步骤](https://segmentfault.com/a/1190000009567424)
+
+> 如果 ssh 如下图错误，配置ssh重来一遍
+
+<img src="https://ricebai.github.io/img/posts/atom-github/git-ssh-error.jpg" />
+
+> 这需要运行 git 添加用户名和邮箱
+
+<img src="https://ricebai.github.io/img/posts/atom-github/atom-act.jpg" />
+
+> Atom 403 讨厌的问题，还没解决，解决的小伙伴给个留言谢谢
+
+<img src="https://ricebai.github.io/img/posts/atom-github/atom-403.jpg" />
