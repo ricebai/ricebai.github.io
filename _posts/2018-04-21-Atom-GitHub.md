@@ -35,8 +35,13 @@ tags:
 
 打开 *Atom* ，File - Settings - Packages 设置、卸载、禁用插件
 
-> Settings 设置，Uninstall 卸载，Disable 禁用
-<img src="https://ricebai.github.io/img/posts/atom-github/settings-packages.jpg" />
+网络搜索插件：[https://atom.io/packages/](https://atom.io/packages/)
+
+*其他推荐：*
+
+1.  [使用 Sync-settings 插件，Atom 的备份神器](https://ricebai.github.io/2018/04/22/Atom-Sync)
+
+2.  [Atom各种有用的插件](https://www.jianshu.com/p/041d3d5f3997)
 
 ### Markdown 的使用
 
@@ -58,4 +63,10 @@ tags:
 
 
 ### 使用GitHub
-传送门：[github.atom.io](https://github.atom.io/)
+
+Atom 官网也有操作描述，[github.atom.io](https://github.atom.io/).
+
+
+安装 Git：[Git Dwonload](https://git-scm.com/downloads)
+
+配置 SSH：[（Git 学习）Git SSH Key 创建步骤](https://segmentfault.com/a/1190000009567424)
