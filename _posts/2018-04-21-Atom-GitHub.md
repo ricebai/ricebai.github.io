@@ -43,7 +43,7 @@ tags:
 
 2.  [Atom各种有用的插件](https://www.jianshu.com/p/041d3d5f3997)
 
-### Markdown 的使用
+### [Markdown](https://ricebai.github.io/2018/04/20/Markdown-Readme/) 的使用
 
 #### 推荐 Markdown 插件：
 
@@ -69,29 +69,44 @@ Atom 官网也有操作描述，[github.atom.io](https://github.atom.io/).
 
 <img src="https://ricebai.github.io/img/posts/atom-github/atom-opts.jpg" />
 
-安装 Git：[Git Dwonload](https://git-scm.com/downloads)
+#### 安装 Git
 
-配置 SSH：[（Git 学习）Git SSH Key 创建步骤](https://segmentfault.com/a/1190000009567424)
+[Git Dwonload](https://git-scm.com/downloads)
+
+#### 配置 SSH
+
+[（Git 学习）Git SSH Key 创建步骤](https://segmentfault.com/a/1190000009567424)
 
 > 如果 ssh 如下图错误，配置ssh重来一遍
 
 <img src="https://ricebai.github.io/img/posts/atom-github/git-ssh-error.jpg" />
 
+### Atom `commit` & `push` 错误
+
+#### Please tell me...
+
+这个问题好处理，按照它的提示，在 `Git` 中运行命令：
+
+```
+git config --global user.email '你的邮箱'
+git config --global user.name ‘你的名字’
+```
+
+
 > 这需要运行 git 添加用户名和邮箱
 
 <img src="https://ricebai.github.io/img/posts/atom-github/atom-act.jpg" />
 
+#### Atom 403 错误
+
 如果你遇到下图提示，Atom 403 错误，恭喜你找到了解决方法。
-
-
-> Atom 403
 
 <img src="https://ricebai.github.io/img/posts/atom-github/atom-403.jpg" />
 
-我们先打开 GitHub Desktop，点击菜单 File - Optios - Advanced
+我们先打开已经安装好的 [GitHub Desktop](https://desktop.github.com/)，点击菜单 File - Optios - Advanced
 
-External editor 选择 Atom，打开 Atom push 操作就好了
+*External editor* 选择 Atom，打开 Atom `push` 操作就好了
 
 <img src="https://ricebai.github.io/img/posts/atom-github/advanced.jpg" />
 
-不知道怎么 push ? [传送门](#atom)
+看到这里还不知道怎么 `commit`、`push` ? [传送门-送你回去再看一遍](#atom)
