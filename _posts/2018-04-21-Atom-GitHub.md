@@ -63,7 +63,7 @@ tags:
 
 
 ### 使用GitHub
-
+<a id="atom"></a>
 Atom 官网也有操作描述，[github.atom.io](https://github.atom.io/).
 
 
@@ -79,13 +79,17 @@ Atom 官网也有操作描述，[github.atom.io](https://github.atom.io/).
 
 <img src="https://ricebai.github.io/img/posts/atom-github/atom-act.jpg" />
 
-如果你遇到下图提示，Atom 403 错误，恭喜你，这里有解决方案。
+如果你遇到下图提示，Atom 403 错误，恭喜你找到了解决方法。
 
 
 > Atom 403
 
 <img src="https://ricebai.github.io/img/posts/atom-github/atom-403.jpg" />
 
-我们先打开 GitHub Desktop，点击菜单 File - Optios - Ad
+我们先打开 GitHub Desktop，点击菜单 File - Optios - Advanced
+
+External editor 选择 Atom，打开 Atom push 操作就好了
 
 <img src="https://ricebai.github.io/img/posts/atom-github/advanced.jpg" />
+
+不知道怎么 push ? [传送门](#atom)
