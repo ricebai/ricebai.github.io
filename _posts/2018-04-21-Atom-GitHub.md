@@ -61,11 +61,13 @@ tags:
 
 [如何利用 Atom 打造一个带有便捷图床功能的 Markdown 编辑器](https://www.jianshu.com/p/af4d34d39797)
 
+<a id="atom"></a>
 
 ### 使用GitHub
-<a id="atom"></a>
+
 Atom 官网也有操作描述，[github.atom.io](https://github.atom.io/).
 
+<img src="https://ricebai.github.io/img/posts/atom-github/atom-opts.jpg" />
 
 安装 Git：[Git Dwonload](https://git-scm.com/downloads)
 
