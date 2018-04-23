@@ -37,11 +37,11 @@ tags:
 
 网络搜索插件：[https://atom.io/packages/](https://atom.io/packages/)
 
-*其他推荐：*
+##### 其他推荐：
 
-1.  [使用 Sync-settings 插件，Atom 的备份神器](https://ricebai.github.io/2018/04/22/Atom-Sync)
+###### 1.  [使用 Sync-settings 插件，Atom 的备份神器](https://ricebai.github.io/2018/04/22/Atom-Sync)
 
-2.  [Atom各种有用的插件](https://www.jianshu.com/p/041d3d5f3997)
+###### 2.  [Atom各种有用的插件](https://www.jianshu.com/p/041d3d5f3997)
 
 ### [Markdown](https://ricebai.github.io/2018/04/20/Markdown-Readme/) 的使用
 
@@ -105,8 +105,10 @@ git config --global user.name ‘你的名字’
 
 我们先打开已经安装好的 [GitHub Desktop](https://desktop.github.com/)，点击菜单 File - Optios - Advanced
 
-*External editor* 选择 Atom，打开 Atom `push` 操作就好了
+*External editor* 选择 Atom
 
 <img src="https://ricebai.github.io/img/posts/atom-github/advanced.jpg" />
+
+在 GitHub Desktop 菜单，选择 Repository - Open in Atom ,这时在 Atom 中的 `push` 操作就好了
 
 看到这里还不知道怎么 `commit`、`push` ? [传送门-送你回去再看一遍](#atom)
