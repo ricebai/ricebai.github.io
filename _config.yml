@@ -74,7 +74,7 @@ gitalk:
 
 
 # Analytics settings
-# Baidu Analytics 
+# Baidu Analytics
 # ba_track_id: [your track id]
 
 # Google Analytics
@@ -99,11 +99,14 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Findro",
+        title: "MyFindro",
         href: "https://findor.me/ricebai"
     },{
         title: "Telegram",
         href: "https://t.me/ricebai"
+    },{
+        title: "Bcbz",
+        href: "https://bcbz.github.io/"
     },{
         title: "Apple",
         href: "https://apple.com"
