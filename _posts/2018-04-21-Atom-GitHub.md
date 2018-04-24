@@ -37,11 +37,11 @@ tags:
 
 网络搜索插件：[https://atom.io/packages/](https://atom.io/packages/)
 
-##### 其他推荐：
+其他推荐：
 
-###### 1.  [使用 Sync-settings 插件，Atom 的备份神器](https://ricebai.github.io/2018/04/22/Atom-Sync)
+##### 1.  [使用 Sync-settings 插件，Atom 的备份神器](https://ricebai.github.io/2018/04/22/Atom-Sync)
 
-###### 2.  [Atom各种有用的插件](https://www.jianshu.com/p/041d3d5f3997)
+##### 2.  [Atom各种有用的插件](https://www.jianshu.com/p/041d3d5f3997)
 
 ### [Markdown](https://ricebai.github.io/2018/04/20/Markdown-Readme/) 的使用
 
