@@ -91,7 +91,6 @@ git config --global user.email '你的邮箱'
 git config --global user.name ‘你的名字’
 ```
 
-
 > 这需要运行 git 添加用户名和邮箱
 
 ![account](https://ricebai.github.io/img/posts/atom-github/atom-act.jpg)
@@ -111,3 +110,8 @@ git config --global user.name ‘你的名字’
 在 GitHub Desktop 菜单，选择 Repository - Open in Atom ,这时在 Atom 中的 `push` 操作就好了
 
 看到这里还不知道怎么 `commit`、`push` ? [传送门-送你回去再看一遍](#atom)
+
+### 总结
+
+通过 `GitHub Desktop` 工具打开 `Atom` 可以直接使用 Atom 的 `commit`、`push` 操作。
+而安装 `Git` 呢，能使用 `Git` 命令操作 GitHub 而已。
