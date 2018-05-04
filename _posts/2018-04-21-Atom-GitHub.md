@@ -25,13 +25,13 @@ tags:
 
 打开 *Atom* ，File - Settings - Themes 设置主题
 
-<img src="https://ricebai.github.io/img/posts/atom-github/settings-themes.jpg" />
+![themes](https://ricebai.github.io/img/posts/atom-github/settings-themes.jpg)
 
 #### Atom 插件安装和卸载
 
 打开 *Atom* ，File - Settings - Install 查找插件，Install 安装插件
 
-<img src="https://ricebai.github.io/img/posts/atom-github/settings-install.jpg" />
+![install](https://ricebai.github.io/img/posts/atom-github/settings-install.jpg)
 
 打开 *Atom* ，File - Settings - Packages 设置、卸载、禁用插件
 
@@ -55,8 +55,7 @@ tags:
 
 打开 *Atom* ，Packages - Markdown Preview - Toggle Preview
 
-<img src="https://ricebai.github.io/img/posts/atom-github/markdown-view.jpg" />
-
+![view](https://ricebai.github.io/img/posts/atom-github/markdown-view.jpg)
 #### 七牛云图：
 
 [如何利用 Atom 打造一个带有便捷图床功能的 Markdown 编辑器](https://www.jianshu.com/p/af4d34d39797)
@@ -67,7 +66,7 @@ tags:
 
 Atom 官网也有操作描述，[github.atom.io](https://github.atom.io/).
 
-<img src="https://ricebai.github.io/img/posts/atom-github/atom-opts.jpg" />
+![options](https://ricebai.github.io/img/posts/atom-github/atom-opts.jpg)
 
 #### 安装 Git
 
@@ -79,7 +78,7 @@ Atom 官网也有操作描述，[github.atom.io](https://github.atom.io/).
 
 > 如果 ssh 如下图错误，配置ssh重来一遍
 
-<img src="https://ricebai.github.io/img/posts/atom-github/git-ssh-error.jpg" />
+![ssh](https://ricebai.github.io/img/posts/atom-github/git-ssh-error.jpg)
 
 ### Atom `commit` & `push` 错误
 
@@ -95,19 +94,19 @@ git config --global user.name ‘你的名字’
 
 > 这需要运行 git 添加用户名和邮箱
 
-<img src="https://ricebai.github.io/img/posts/atom-github/atom-act.jpg" />
+![account](https://ricebai.github.io/img/posts/atom-github/atom-act.jpg)
 
 #### Atom 403 错误
 
 如果你遇到下图提示，Atom 403 错误，恭喜你找到了解决方法。
 
-<img src="https://ricebai.github.io/img/posts/atom-github/atom-403.jpg" />
+![403](https://ricebai.github.io/img/posts/atom-github/atom-403.jpg)
 
 我们先打开已经安装好的 [GitHub Desktop](https://desktop.github.com/)，点击菜单 File - Optios - Advanced
 
 *External editor* 选择 Atom
 
-<img src="https://ricebai.github.io/img/posts/atom-github/advanced.jpg" />
+![advanced](https://ricebai.github.io/img/posts/atom-github/advanced.jpg)
 
 在 GitHub Desktop 菜单，选择 Repository - Open in Atom ,这时在 Atom 中的 `push` 操作就好了
 
