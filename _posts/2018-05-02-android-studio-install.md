@@ -70,3 +70,5 @@ Android Studio 是一个 `Android` 集成开发工具，基于 `IntelliJ IDEA`. 
 ![run](https://ricebai.github.io/img/posts/android-studio/as-start.gif)
 
 经过漫长的等待，就能进入真正的工作界面。
+
+![welcome](https://ricebai.github.io/img/posts/android-studio/as-welcome.jpg)
