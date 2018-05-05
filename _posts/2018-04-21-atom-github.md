@@ -64,13 +64,13 @@ Atom 是 `GitHub` 专门为程序员推出的一个跨平台文本编辑器。�
 
 [如何利用 Atom 打造一个带有便捷图床功能的 Markdown 编辑器](https://www.jianshu.com/p/af4d34d39797)
 
-<a id="atom"></a>
-
 #### 其他插件
 
 有更多的插件推荐：[传送门](https://www.jianshu.com/p/041d3d5f3997)
 
-### 使用GitHub
+<a id="atom"></a>
+
+### push、commit 等
 
 Atom 官网也有操作描述，[github.atom.io](https://github.atom.io/).
 
