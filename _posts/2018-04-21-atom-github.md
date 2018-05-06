@@ -86,7 +86,7 @@ Atom 官网也有操作描述，[github.atom.io](https://github.atom.io/).
 
 ![clone](https://ricebai.github.io/img/posts/atom-github/clone.jpg)
 
-粘贴仓库URL
+粘贴仓库URL并点击 `clone`。
 
 ![copy](https://ricebai.github.io/img/posts/atom-github/copy.jpg)
 
