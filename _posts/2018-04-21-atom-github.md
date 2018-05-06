@@ -76,6 +76,20 @@ Atom 官网也有操作描述，[github.atom.io](https://github.atom.io/).
 
 ![options](https://ricebai.github.io/img/posts/atom-github/atom-opts.jpg)
 
+### clone
+
+在 GitHub 找到需要克隆的仓库，并复制URL。
+
+![repositories](https://ricebai.github.io/img/posts/atom-github/url.jpg)
+
+打开 Atom，`ctrl` + `shift` + `p` 输入 `clone`。
+
+![clone](https://ricebai.github.io/img/posts/atom-github/clone.jpg)
+
+粘贴仓库URL
+
+![copy](https://ricebai.github.io/img/posts/atom-github/copy.jpg)
+
 ## 安装 Git
 
 我们需要先下载 [Git](https://git-scm.com/downloads)，运行后进行下面配置。
