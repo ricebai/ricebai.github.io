@@ -21,9 +21,8 @@ tags:
 
 Atom 是 `GitHub` 专门为程序员推出的一个跨平台文本编辑器。具有简洁和直观的图形用户界面，并有很多有趣的特点：支持CSS，HTML，JavaScript等网页编程语言。它支持宏，自动完成分屏功能，集成了文件管理器。
 
-## 下载和使用
+## Atom 下载和使用
 
-### 下载
 传送门：[atom.io 官网连接](https://atom.io) 支持 Windows 版本和 Mac 版本。
 
 ### 主题修改
@@ -90,7 +89,25 @@ Atom 官网也有操作描述，[github.atom.io](https://github.atom.io/).
 
 ![copy](https://ricebai.github.io/img/posts/atom-github/copy.jpg)
 
-## 安装 Git
+### 常用快捷键
+
+- `ctrl` + `shift` + `\` 快速定位当前文件在 `tree-view` 中的位置。
+
+- `ctrl` + `shift` + `p` 调出 `package` 搜索
+
+- `ctrl` + `p` 调出文件搜索
+
+- `ctrl` + `\` 调出 `tree-view` 视图
+
+- `ctrl` + `shif` + `m` 打开 `markdown` 预览
+
+- `ctrl` + `x` 行删除
+
+- `ctrl` + `d` 选中一个字符后使用该快捷键选中相同的字符
+
+- `ctrl` + `b` 调出已修改的文件搜索
+
+## Git 下载安装
 
 我们需要先下载 [Git](https://git-scm.com/downloads)，运行后进行下面配置。
 
