@@ -1,13 +1,12 @@
 ---
 layout:     post
 title:      Android Studio
-subtitle:   Android Studio 的下载和安装
+subtitle:   Android Studio 安装和使用
 date:       2018-05-02
 author:     ricebai
 header-img: img/posts/android-studio/post-bg-android.png
 catalog: true
 tags:
-    - Android
     - Android Studio
 ---
 
