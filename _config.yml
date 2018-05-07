@@ -18,7 +18,7 @@ sidebar-avatar: /img/about-ricebai.jpg      # use absolute URL, seeing it's used
 # SNS settings
 RSS: false
 weibo_username:     ricebai
-#zhihu_username:     ricebai
+zhihu_username:     wan-wu-zi-jie-ma
 github_username:    ricebai
 twitter_username:   ricebai
 #facebook_username:  ricebai
