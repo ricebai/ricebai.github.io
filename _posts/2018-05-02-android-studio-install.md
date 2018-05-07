@@ -23,35 +23,35 @@ Android Studio 是一个 `Android` 集成开发工具，基于 `IntelliJ IDEA`. 
 - 基于模板的向导来生成常用的 `Android` 应用设计和组件
 - 功能强大的布局编辑器，可以让你拖拉 UI 控件并进行效果预览
 
-## 下载和安装
+### 下载和安装
 
 我们可以再官网下载 `Android Studio` 安装包，支持 `Windows` `Mac` `Linux` 平台工具下载。
 
 由于我的环境是 `Windows`，下面我以 `Windows` 为例图文说明。
 
-### 下载
+#### 下载
 
 浏览器访问 [Android Studio 中文社区(官网)](http://www.android-studio.org) 下载开发工具，如图：
 
 ![download android studio](https://ricebai.github.io/img/posts/android-studio/as-download.jpg)
 
-### 安装
+#### 安装
 
 打开安装包，一路下一步。需要修改安装路径的中间选择下。
 
 ![install](https://ricebai.github.io/img/posts/android-studio/as-install.gif)
 
-## Android Studio 运行
+### Android Studio 运行
 
 在安装完毕后直接运行 `Android Studio` 会遇到下面选择。
 
-### 旧的安装配置文件
+#### 设置配置
 
 如果之前安装过 `Android Studio`，我们可以选择之前安装的版本配置文件。
 
 ![old-install](https://ricebai.github.io/img/posts/android-studio/as-install-old.jpg)
 
-### 首次安装运行
+#### 首次安装运行
 
 第一次安装运行，我们默认选择下面这一项。后面都按第一次运行说明。
 
@@ -70,3 +70,7 @@ Android Studio 是一个 `Android` 集成开发工具，基于 `IntelliJ IDEA`. 
 ![run](https://ricebai.github.io/img/posts/android-studio/as-start.gif)
 
 完成后就看到了欢迎界面。
+
+#### SVN 使用
+
+请看另一篇文章，[Android Studio SVN ](https://ricebai.github.io/2018/05/07/tortoise-svn/#svn-%E9%85%8D%E7%BD%AE) 使用
