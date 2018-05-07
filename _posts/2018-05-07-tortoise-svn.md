@@ -30,13 +30,15 @@ TortoiseSVN 是 Subversion 版本控制系统的一个免费开源客户端，�
 ![svn](https://ricebai.github.io/img/posts/svn/svn.jpg)
 
 
-### Android Studio SVN 配置和使用
+### Android Studio SVN
+
+#### SVN 配置
 
 打开 Android Studio，File - Settings - Version Control - Subversion，配置 `svn.exe`。
 
 ![svn-set](https://ricebai.github.io/img/posts/svn/svn-ads-set.jpg)
 
-#### Android Studio SVN 使用
+#### SVN 使用
 
 打开 Android Studio，菜单中选择 Subversion。
 
@@ -54,6 +56,6 @@ TortoiseSVN 是 Subversion 版本控制系统的一个免费开源客户端，�
 
 ![svn-v](https://ricebai.github.io/img/posts/svn/svn-ads-v.jpg)
 
-Android Studio `update`、`commit` 等操作。
+#### SVN update 、commit 等操作。
 
 ![svn-ads-opts](https://ricebai.github.io/img/posts/svn/svn-ads-opts.jpg)
