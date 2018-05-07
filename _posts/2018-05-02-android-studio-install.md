@@ -71,6 +71,6 @@ Android Studio 是一个 `Android` 集成开发工具，基于 `IntelliJ IDEA`. 
 
 完成后就看到了欢迎界面。
 
-#### SVN 使用
+### SVN 使用
 
 请看另一篇文章，[Android Studio SVN ](https://ricebai.github.io/2018/05/07/tortoise-svn/#svn-%E9%85%8D%E7%BD%AE) 使用
