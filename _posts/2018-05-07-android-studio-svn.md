@@ -34,24 +34,26 @@ TortoiseSVN 是 Subversion 版本控制系统的一个免费开源客户端，�
 
 打开 Android Studio，File - Settings - Version Control - Subversion，配置 `svn.exe`。
 
-![svn-set](https://ricebai.github.io/img/posts/svn/svn-set.jpg)
+![svn-set](https://ricebai.github.io/img/posts/svn/svn-ads-set.jpg)
 
 #### Android Studio SVN 使用
 
 打开 Android Studio，菜单中选择 Subversion。
 
-![svn-menu](https://ricebai.github.io/img/posts/svn/svn-menu.jpg)
+![svn-menu](https://ricebai.github.io/img/posts/svn/svn-ads-menu.jpg)
 
 添加 SVN 地址，填写用户名与密码，建议勾选 `Save credentials`，点击 `ok`，点击 `Checkout`。
 
-![svn-add](https://ricebai.github.io/img/posts/svn/svn-add.jpg)
+![svn-add](https://ricebai.github.io/img/posts/svn/svn-ads-add.jpg)
 
 选择导出目录。
 
-![svn-checkout](https://ricebai.github.io/img/posts/svn/svn-checkout.jpg)
+![svn-checkout](https://ricebai.github.io/img/posts/svn/svn-ads-checkout.jpg)
 
-选择导出 `JAVA` 版本
+选择导出 `JAVA` 版本，完成导出。
 
-![svn-v](https://ricebai.github.io/img/posts/svn/svn-v.jpg)
+![svn-v](https://ricebai.github.io/img/posts/svn/svn-ads-v.jpg)
 
-之后只需要静静的等待即可。
+Android Studio `update`、`commit` 等操作。
+
+![svn-ads-opts](https://ricebai.github.io/img/posts/svn/svn-ads-opts.jpg)
