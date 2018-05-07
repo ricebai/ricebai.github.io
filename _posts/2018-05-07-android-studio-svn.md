@@ -4,7 +4,7 @@ title:      TortoiseSVN
 subtitle:   TortoiseSVN 下载安装和使用
 date:       2018-05-02
 author:     ricebai
-header-img: img/posts/svn/post-bg-android.png
+header-img: img/posts/svn/post-bg-svn.png
 catalog: true
 tags:
     - Android Studio
