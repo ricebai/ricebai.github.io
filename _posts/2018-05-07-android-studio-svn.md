@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Android Studio
-subtitle:   Android Studio 下载安装和使用
+title:      Android Studio SVN
+subtitle:   Android Studio SVN 下载安装和使用
 date:       2018-05-02
 author:     ricebai
 header-img: img/posts/android-studio/post-bg-android.png
