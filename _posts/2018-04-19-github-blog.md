@@ -37,7 +37,8 @@ tags:
 
 ### 集成 jekyll 网络结构
 
-jekyll 目录结构
+[jekyll](https://www.jekyll.com.cn/docs/structure/) 目录结构
+
 ```
 ├── _config.yml
 ├── _drafts
@@ -66,8 +67,6 @@ jekyll 目录结构
 进入我的仓库，选择 `settings` -> `Options`：
 
 ![theme](https://ricebai.github.io/img/posts/github-blog/choose_theme.jpg)
-
-可以参考：[jekyll](http://jekyll.com.cn/)
 
 ### 集成 Gitalk 评论插件
 
