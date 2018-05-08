@@ -29,6 +29,21 @@ TortoiseSVN 是 Subversion 版本控制系统的一个免费开源客户端，�
 
 ![svn](https://ricebai.github.io/img/posts/svn/svn.jpg)
 
+### Eclipse SVN
+
+打开 Eclipse ，从菜单进入 Help - Install New Software...
+
+![menu](https://ricebai.github.io/img/posts/svn/svn-eps-menu.jpg)
+
+#### 导入svn插件jar/zip
+
+选中导入svn包。
+
+![add-jar](https://ricebai.github.io/img/posts/svn/svn-eps-addjar.jpg)
+
+勾选 svn 插件列表，点击 next。
+
+![add-jar](https://ricebai.github.io/img/posts/svn/svn-eps-addjar2.jpg)
 
 ### Android Studio SVN
 
