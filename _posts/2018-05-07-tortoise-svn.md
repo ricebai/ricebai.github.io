@@ -17,11 +17,11 @@ SVN是Subversion的简称，是一个开放源代码的版本控制系统，相�
 
 TortoiseSVN 是 Subversion 版本控制系统的一个免费开源客户端，可以超越时间的管理文件和目录。文件保存在中央版本库，除了能记住文件和目录的每次修改以外，版本库非常像普通的文件服务器。你可以将文件恢复到过去的版本，并且可以通过检查历史知道数据做了哪些修改，谁做的修改。这就是为什么许多人将 Subversion 和版本控制系统看作一种“时间机器”。
 
-### TortoiseSVN 下载
+### TortoiseSVN 安装程序下载
 
 没有安装点击下载 [TortoiseSVN](https://www.visualsvn.com/server/download/)。
 
-如果已经下载安装完毕，则需要在安装目录中找到 `snv.exe`。
+如果已经下载安装完毕，则需要在安装目录中找到 `snv.exe`。因为部分开发工具要设置使用。
 
 ![svn-exe](https://ricebai.github.io/img/posts/svn/svn-exe.jpg)
 
