@@ -31,7 +31,7 @@ TortoiseSVN 是 Subversion 版本控制系统的一个免费开源客户端，�
 
 ### Eclipse SVN
 
-### Marketplace 下载
+#### Marketplace 下载
 
 打开Eclipse - Help - Eclipse Marketplace - 在Find中输入subclipse搜索 --> 找到subclipse点击install
 
@@ -39,7 +39,7 @@ TortoiseSVN 是 Subversion 版本控制系统的一个免费开源客户端，�
 
 ![menu](https://ricebai.github.io/img/posts/svn/svn-eps-menu.jpg)
 
-### Install New Software 下载
+#### Install New Software 下载
 
 打开Eclipse - Help - Install New Software - 点击add按钮，输入下载地址：
 
