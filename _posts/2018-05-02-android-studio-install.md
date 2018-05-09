@@ -72,4 +72,38 @@ Android Studio 是一个 `Android` 集成开发工具，基于 `IntelliJ IDEA`. 
 
 ### SVN 使用
 
-请看另一篇文章，[Android Studio SVN ](https://ricebai.github.io/2018/05/07/tortoise-svn/#svn-%E9%85%8D%E7%BD%AE) 使用
+请看另一篇文章，[Android Studio SVN ](https://ricebai.github.io/2018/05/07/tortoise-svn/#android-studio-svn) 使用
+
+### 常用快捷键
+
+- Ctrl+N:查找类
+
+- Ctrl+Shift+N:查找文件
+
+- Ctrl+Alt+L :格式化代码
+
+- Ctrl+Alt+O:优化导入的类和包
+
+- Ctrl+/:注释代码 格式：//代码块
+
+- Ctrl+Shift+/:注释多行代码 格式:/*代码块*/
+
+- Ctrl+Alt+Space(空格):自动补全代码
+
+- Ctrl+空格:代码感应提示
+
+- Ctrl+Alt+Space:类名和接口名提示
+
+### 快捷键设置
+
+在 Android Studio 中点击菜单，File - Settings - Keymap
+
+可用点击右边的小放大镜，通过快捷键搜索对应的功能。
+
+![keymap](https://ricebai.github.io/img/posts/android-studio/as-keymap.jpg)
+
+右键在对应操作上添加快捷键，一个操作可以添加多个快捷键。
+
+![keymap-add](https://ricebai.github.io/img/posts/android-studio/as-keymap-add.jpg)
+
+仍然可以通过右键删除已有的快捷键
