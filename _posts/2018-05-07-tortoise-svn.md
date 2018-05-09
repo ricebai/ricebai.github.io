@@ -31,23 +31,35 @@ TortoiseSVN 是 Subversion 版本控制系统的一个免费开源客户端，�
 
 ### Eclipse SVN
 
-#### Marketplace 下载
+#### Marketplace 安装 SVN
 
-打开Eclipse - Help - Eclipse Marketplace - 在Find中输入subclipse搜索 --> 找到subclipse点击install
+打开 Eclipse - Help - Eclipse Marketplace
+
+![menu](https://ricebai.github.io/img/posts/svn/svn-eps-menu-m.jpg)
+
+在 `Find` 中输入 `subclipse` 搜索，找到 `subclipse` 点击 `install`
+
+![subclipse](https://ricebai.github.io/img/posts/svn/svn-eps-menu-mi.jpg)
+
+#### Install New Software 安装 SVN
 
 打开 Eclipse ，从菜单进入 Help - Install New Software...
 
 ![menu](https://ricebai.github.io/img/posts/svn/svn-eps-menu.jpg)
 
-#### Install New Software 下载
+##### add URL
 
-打开Eclipse - Help - Install New Software - 点击add按钮，输入下载地址：
+打开Eclipse - Help - Install New Software - 点击 `add` 按钮，输入下载地址：
 
-[http://subclipse.tigris.org/update_1.10.x](http://subclipse.tigris.org/update_1.10.x)，点击OK
+`http://subclipse.tigris.org/update_1.10.x`，点击OK
 
-将Subclipse和SVNKit打勾后，一路next或agree到结束即可
+![add](https://ricebai.github.io/img/posts/svn/svn-eps-in.jpg)
 
-#### 导入svn插件 site.zip
+将 `Subclipse` 和 `SVNKit` 打勾后，一路 `next` 或 `agree` 到结束即可
+
+![add](https://ricebai.github.io/img/posts/svn/svn-eps-in-add.jpg)
+
+##### add site.zip
 
 zip 导入的话，我们首先要准备好 [svn 插件](http://subclipse.tigris.org/servlets/ProjectDocumentList?folderID=2240)。
 
@@ -55,11 +67,7 @@ zip 导入的话，我们首先要准备好 [svn 插件](http://subclipse.tigris
 
 ![svn-site-zip.jpg](https://ricebai.github.io/img/posts/svn/svn-site-zip.jpg)
 
-打开 Eclipse ，从菜单进入 Help - Install New Software...
-
-![menu](https://ricebai.github.io/img/posts/svn/svn-eps-menu.jpg)
-
-选中导入svn包。
+打开 Eclipse ，从菜单进入 Help - Install New Software ， `Archive` 选中导入svn包。
 
 ![add-jar](https://ricebai.github.io/img/posts/svn/svn-eps-addjar.jpg)
 
