@@ -31,11 +31,33 @@ TortoiseSVN 是 Subversion 版本控制系统的一个免费开源客户端，�
 
 ### Eclipse SVN
 
+### Marketplace 下载
+
+打开Eclipse - Help - Eclipse Marketplace - 在Find中输入subclipse搜索 --> 找到subclipse点击install
+
 打开 Eclipse ，从菜单进入 Help - Install New Software...
 
 ![menu](https://ricebai.github.io/img/posts/svn/svn-eps-menu.jpg)
 
-#### 导入svn插件jar/zip
+### Install New Software 下载
+
+打开Eclipse - Help - Install New Software - 点击add按钮，输入下载地址：
+
+[http://subclipse.tigris.org/update_1.10.x](http://subclipse.tigris.org/update_1.10.x)，点击OK
+
+将Subclipse和SVNKit打勾后，一路next或agree到结束即可
+
+#### 导入svn插件 site.zip
+
+zip 导入的话，我们首先要准备好 [svn 插件](http://subclipse.tigris.org/servlets/ProjectDocumentList?folderID=2240)。
+
+选择交新的稳定版本下载。
+
+![svn-site-zip.jpg](https://ricebai.github.io/img/posts/svn/svn-site-zip.jpg)
+
+打开 Eclipse ，从菜单进入 Help - Install New Software...
+
+![menu](https://ricebai.github.io/img/posts/svn/svn-eps-menu.jpg)
 
 选中导入svn包。
 
@@ -44,6 +66,10 @@ TortoiseSVN 是 Subversion 版本控制系统的一个免费开源客户端，�
 勾选 svn 插件列表，点击 next。
 
 ![add-jar](https://ricebai.github.io/img/posts/svn/svn-eps-addjar2.jpg)
+
+#### 拷贝到文件添加 site
+
+解压缩后在eclipse目录下找到dropins文件夹，进入dropins文件夹并新建一个文件夹名为svn，将features和plugins文件夹复制到svn目录下-->重启下Eclipse即可
 
 ### Android Studio SVN
 
