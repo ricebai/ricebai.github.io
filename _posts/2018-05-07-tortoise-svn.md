@@ -81,6 +81,10 @@ zip 导入的话，我们首先要准备好 [svn 插件](http://subclipse.tigris
 
 将 `features` 和 `plugins` 文件夹复制到 `svn` 目录下，重启下 Eclipse 即可
 
+#### SVN update 、commit 等操作
+
+![svn-eps-opts](https://ricebai.github.io/img/posts/svn/svn-eps-opts.jpg)
+
 ### Android Studio SVN
 
 #### SVN 配置
@@ -107,6 +111,6 @@ zip 导入的话，我们首先要准备好 [svn 插件](http://subclipse.tigris
 
 ![svn-v](https://ricebai.github.io/img/posts/svn/svn-ads-v.jpg)
 
-#### SVN update 、commit 等操作。
+#### SVN update 、commit 等操作
 
 ![svn-ads-opts](https://ricebai.github.io/img/posts/svn/svn-ads-opts.jpg)
