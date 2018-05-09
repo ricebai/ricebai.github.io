@@ -37,7 +37,7 @@ TortoiseSVN 是 Subversion 版本控制系统的一个免费开源客户端，�
 
 ![menu](https://ricebai.github.io/img/posts/svn/svn-eps-menu-m.jpg)
 
-在 `Find` 中输入 `subclipse` 搜索，找到 `subclipse` 点击 `install`
+在 `Find` 中输入 `subclipse` 搜索，找到 `subclipse` 点击 `installed`
 
 ![subclipse](https://ricebai.github.io/img/posts/svn/svn-eps-menu-mi.jpg)
 
@@ -77,7 +77,9 @@ zip 导入的话，我们首先要准备好 [svn 插件](http://subclipse.tigris
 
 #### 拷贝到文件添加 site
 
-解压缩后在eclipse目录下找到dropins文件夹，进入dropins文件夹并新建一个文件夹名为svn，将features和plugins文件夹复制到svn目录下-->重启下Eclipse即可
+解压缩后在 Eclipse 目录下找到 `dropins` 文件夹并新建一个文件夹名为 `svn`
+
+将 `features` 和 `plugins` 文件夹复制到 `svn` 目录下，重启下 Eclipse 即可
 
 ### Android Studio SVN
 
