@@ -19,7 +19,11 @@ TortoiseSVN 是 Subversion 版本控制系统的一个免费开源客户端，�
 
 ### TortoiseSVN 安装程序下载
 
-没有安装点击下载 [TortoiseSVN](https://www.visualsvn.com/server/download/)。
+没有安装点击下载
+
+[Tortoise SVN](https://tortoisesvn.net/downloads.zh.html)
+
+[VISUALSVN SERVER](https://www.visualsvn.com/server/download/)
 
 如果已经下载安装完毕，则需要在安装目录中找到 `snv.exe`。因为部分开发工具要设置使用。
 
