@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Oracle 语句块
-subtitle:   Oracle Declare & 语句块的使用
+subtitle:   Oracle 语句块的使用
 date:       2018-05-18
 author:     ricebai
 header-img: img/posts/plsql/post-bg-plsql.png
@@ -9,24 +9,6 @@ catalog: true
 tags:
     - Oracle
 ---
-
-### Declare 声明
-
-声明变量的，例如：
-
-``` SQL
-declare v_number number(10);
-        v_char varchar2(20);
-```
-
-带默认值写法：
-
-``` SQL
-declare v_number number(10) := 10;
-        v_char varchar2(20) := 'ABC';
-```
-
-`declare` 一般是用在函数、存储过程和块结构及简单的事务中
 
 ### 语句块
 
