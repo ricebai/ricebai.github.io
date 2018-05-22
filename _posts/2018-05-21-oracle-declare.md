@@ -154,6 +154,8 @@ end;
 
 ### 多信息封装
 
+#### 定义
+
 定义数据类型为 `user_info`，创建子类型：`u_name`、`u_age`、`u_sex`。
 
 ``` SQL
@@ -164,13 +166,14 @@ type user_info is record(
     u_sex  varchar2(5));
 ```
 
+#### 声明
+
 声明自定义可自增数据数组类型。
 
 ``` SQL
 type user_info_arr is table of user_info index by binary_integer;
 ```
-
-使用示例：
+#### 示例
 
 ``` SQL
 declare
