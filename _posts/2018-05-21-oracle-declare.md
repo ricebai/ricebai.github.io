@@ -192,6 +192,7 @@ begin
 
  for i in 1 .. user_infos.count
   loop
+    -- 输出
     dbms_output.put_line('name :' || user_infos(i).u_name);
     dbms_output.put_line('age :' || user_infos(i).u_age);
     dbms_output.put_line('sex :' || user_infos(i).u_sex);
