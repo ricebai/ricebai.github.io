@@ -168,7 +168,7 @@ type user_info is record(
 
 #### 声明
 
-声明自定义可自增数据数组类型。
+声明 `user_info_arr` 自定义可自增数据数组类型。
 
 ``` SQL
 type user_info_arr is table of user_info index by binary_integer;
