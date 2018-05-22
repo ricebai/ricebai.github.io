@@ -40,13 +40,22 @@ declare v_number number(10) := 10;
 type name_arr is table of varchar2(10);
 ```
 
+初始化数组。
+
+``` SQL
+-- 初始化数组
+names name_arr := name_arr();
+```
+
+示例如下，在未设置 `index by binary_integer` 情况下，必须初始化数组并每次调用 `names.extend` 手动增加数组空间。
+
 ``` SQL
 declare
   type name_arr is table of varchar2(10);
   -- 初始化数组
-  names name_arr := name_arr();
+  names name_arr  `:= name_arr();`
 begin
-  --
+  -- 增加数组空间
   names.extend;
   names(1) := 'AAA';
   names.extend;
@@ -54,8 +63,13 @@ begin
 end;
 ```
 
-
 #### 自增声明
+
+增加 `index by binary_integer` 后无需初始化 `:= name_arr();`
+
+``` SQL
+type name_arr is table of varchar2(10) index by binary_integer;
+```
 
 　　增加 `index by binary_integer` 后，numbers 类型的下表自增长。可以自动根据下标找到对应的值。numbers 类型在插入元素时，不需要初始化，不需要每次 `extend` 增加一个空间。
 
