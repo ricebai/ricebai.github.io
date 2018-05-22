@@ -151,3 +151,50 @@ begin
   end loop;
 end;
 ```
+
+### 多信息封装
+
+定义数据类型为 `user_info`，创建子类型：`u_name`、`u_age`、`u_sex`。
+
+``` SQL
+declare
+type user_info is record(
+    u_name varchar2(20),
+    u_age  number(3),
+    u_sex  varchar2(5));
+```
+
+声明自定义可自增数据数组类型。
+
+``` SQL
+type user_info_arr is table of user_info index by binary_integer;
+```
+
+使用示例：
+
+``` SQL
+declare
+type user_info is record( -- 定义user_info 数据类型
+    u_name varchar2(20),
+    u_age  number(3),
+    u_sex  varchar2(5));
+
+ -- 声明 user_info_arr 数组类型
+ type user_info_arr is table of user_info index by binary_integer;
+
+ -- 创建 user_infos 数组变量
+  user_infos user_info_arr;
+begin
+
+  user_infos(1).u_name := 'AAA';
+  user_infos(1).u_age := '19';
+  user_infos(1).u_sex := '女';
+
+ for i in 1 .. user_infos.count
+  loop
+    dbms_output.put_line('name :' || user_infos(i).u_name);
+    dbms_output.put_line('age :' || user_infos(i).u_age);
+    dbms_output.put_line('sex :' || user_infos(i).u_sex);
+  end loop;
+end;
+```
