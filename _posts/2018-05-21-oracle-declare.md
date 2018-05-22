@@ -19,18 +19,20 @@ tags:
 #### 声明
 
 ``` SQL
-declare v_number number(10);
-        v_char varchar2(20);
+declare v_number number(10); -- 长度10
+        v_char varchar2(20); -- 长度20
 ```
 
 #### 带默认值
 
 ``` SQL
-declare v_number number(10) := 10;
-        v_char varchar2(20) := 'ABC';
+declare v_number number(10) := 10; -- 长度10
+        v_char varchar2(20) := 'ABC'; -- 长度20
 ```
 
 ### 数组变量
+
+在 ORQCLE 中的数组变量都是以 1 为初始下标，并不是 0。
 
 #### 非自增声明
 
@@ -53,7 +55,7 @@ names name_arr := name_arr();
 declare
   type name_arr is table of varchar2(10);
   -- 初始化数组
-  names name_arr  `:= name_arr();`
+  names name_arr  := name_arr();
 begin
   -- 增加数组空间
   names.extend;
@@ -63,17 +65,88 @@ begin
 end;
 ```
 
+`.extend` 还可以直接定义创建的空间数。
+
+``` SQL
+declare
+  type name_arr is table of varchar2(10);
+  -- 初始化数组
+  names name_arr  := name_arr();
+begin
+  -- 增加 2 个数组空间
+  names.extend(2);
+  names(1) := 'AAA';
+  names(2) := 'BBB';
+end;
+```
+
+初始化带默认值数组。
+
+``` SQL
+-- 初始化带默认值数组
+names name_arr := name_arr('AAA','BBB');
+```
+
+示例如下。
+
+``` SQL
+declare
+  type name_arr is table of varchar2(10);
+  -- 初始化数组
+  names name_arr  := name_arr('AAA','BBB');
+begin
+  for i in 1 .. names.count
+  loop
+    -- 循环输出
+    dbms_output.put_line('name :' || names(i));
+  end loop;
+end;
+```
+
 #### 自增声明
 
-增加 `index by binary_integer` 后无需初始化 `:= name_arr();`
+增加 `index by binary_integer` ， 下标自增长。
 
 ``` SQL
 type name_arr is table of varchar2(10) index by binary_integer;
 ```
 
-　　增加 `index by binary_integer` 后，numbers 类型的下表自增长。可以自动根据下标找到对应的值。numbers 类型在插入元素时，不需要初始化，不需要每次 `extend` 增加一个空间。
-
+示例如下，使用后无需初始化 `:= name_arr();` 和 `.extend` 增加数组空间。
 
 ``` SQL
-type name_arr is table of varchar2(10) index by binary_integer;
+declare
+  type name_arr is table of varchar2(10) index by binary_integer;
+  names name_arr;
+begin
+  -- 赋值
+  names(1) := 'AAA';
+  names(2) := 'BBB';
+
+  for i in 1 .. names.count
+  loop
+    -- 循环输出
+    dbms_output.put_line('name :' || names(i));
+  end loop;
+end;
+```
+
+### 查询赋值
+
+这种查询赋值必须使用 `index by binary_integer` 下标自增长实现。
+
+``` SQL
+declare
+  type name_arr is table of varchar2(10)  index by binary_integer;
+  names name_arr ;
+begin
+  -- 将字段 name 数据集合存放在 names 变量中
+  select a.name
+    bulk collect into names
+  from my_tabel a;
+
+  for i in 1 .. names.count
+  loop
+    dbms_output.put_line('name :' || names(i));
+  end loop;
+end;
 ```
