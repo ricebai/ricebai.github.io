@@ -146,6 +146,7 @@ begin
 
   for i in 1 .. names.count
   loop
+    -- 循环输出
     dbms_output.put_line('name :' || names(i));
   end loop;
 end;
