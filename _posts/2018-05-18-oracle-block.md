@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Oracle Begin...End 语句块
-subtitle:   Oracle Begin...End 语句块的使用
+title:      Oracle 存储过程
+subtitle:   Oracle Begin...End 语句块、IF 与存储过程的应用
 date:       2018-05-18
 author:     ricebai
 header-img: img/posts/plsql/post-bg-plsql.png
@@ -12,22 +12,28 @@ tags:
 
 ### 语句块
 
-`begin` ... `end` 块结构 SQL
+语句块由 `begin` ... `end` 组成。
+
+``` SQL
+begin
+    dbms_output.put_line('这是语句块');
+end;
+```
+
+语句块也可以组合使用，来完成一些复杂的逻辑。
 
 ``` SQL
 declare
-    v_id varchar2(50); -- 定义变量
-    v_no varchar2(50);
-
+    v_name varchar2(50); -- 定义变量
 begin
-    v_id := '31'; -- 变量赋值
-
-    select t1.supplier_no into v_no -- 查询赋值
-      from srm_supplier t1
+    -- 查询动态获得值
+    select t1.name into v_name -- 查询赋值
+      from t_table t1
     where t1.id = '31';
 
-    update srm_supplier t2
-      set t2.supplier_name = '测试32'
-    where t2.supplier_no = v_no; -- 调用变量
+    -- 执行更新操作
+    update t_table t2
+      set t2.no = '测试32'
+    where t2.name = v_name; -- 调用变量
 end;
 ```
