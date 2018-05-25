@@ -22,7 +22,6 @@ begin
 end;
 ```
 
-语句块可以包含多条 SQL 语句，顺序处理。
 
 ``` SQL
 declare
@@ -42,20 +41,58 @@ end;
 
 #### IF
 
-语句块中使用 `if` ... `else`
+语句块中使用 `if` 组合使用逻辑运算符判断一个条件是否成立。
+
+`set serveroutput on` 这个只能在 SQL PLUS 里面使用，意思是在窗口里显示服务器输出信息。
 
 ``` SQL
-
-
-
+-- 窗口中输出信息
+set serveroutput on
+declare
+    -- 定义带默认值变量
+    v_name varchar2(1) := 'A';
+begin
+    -- 判断 v_name 是否等于字符 A
+    if v_name = 'A' then
+        -- 判断成功
+        dbms_output.put_line('v_name 等于 A');
+    end if;
+end;
 ```
 
-#### 逻辑符
+#### ELSE
 
-语句块中使用逻辑符
+在语句块中，`if` 条件不成立则会进入 `else`。
 
 ``` SQL
+declare
+    -- 定义带默认值变量
+    v_name varchar2(1) := 'B';
+begin
+    -- 判断 v_name 是否等于字符 A
+    if v_name = 'A' then
+        -- 判断成功
+        dbms_output.put_line('v_name 等于 A');
+    else
+        -- 判断失败
+        dbms_output.put_line('v_name 不等于 A');
+    end if;
+end;
+```
 
+当然也有 `elsif` 判断多次。 
 
-
+``` SQL
+declare
+    -- 定义带默认值变量
+    v_name varchar2(1) := 'B';
+begin
+    -- 判断 v_name 是否等于字符 A
+    if v_name = 'A' then
+        dbms_output.put_line('v_name 等于 A');
+    -- 判断 v_name 是否等于字符 B
+    elsif v_name = 'B' then
+        dbms_output.put_line('v_name 等于 B');
+    end if;
+end;
 ```
