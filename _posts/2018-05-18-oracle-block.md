@@ -30,6 +30,7 @@ begin
 end;
 ```
 
+语句块中也可以包含多条 SQL 语句顺序执行。
 
 ```SQL
 declare
