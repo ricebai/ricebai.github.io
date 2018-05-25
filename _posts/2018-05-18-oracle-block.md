@@ -16,14 +16,14 @@ tags:
 
 语句块由 `begin` ... `end` 组成。
 
-``` SQL
+```SQL
 begin
     dbms_output.put_line('这是语句块');
 end;
 ```
 
 
-``` SQL
+```SQL
 declare
     v_name varchar2(50); -- 定义变量
 begin
@@ -45,7 +45,7 @@ end;
 
 `set serveroutput on` 这个只能在 SQL PLUS 里面使用，意思是在窗口里显示服务器输出信息。
 
-``` SQL
+```SQL
 -- 窗口中输出信息
 set serveroutput on
 declare
@@ -64,7 +64,7 @@ end;
 
 在语句块中，`if` 条件不成立则会进入 `else`。
 
-``` SQL
+```SQL
 declare
     -- 定义带默认值变量
     v_name varchar2(1) := 'B';
@@ -80,9 +80,9 @@ begin
 end;
 ```
 
-当然也有 `elsif` 判断多次。 
+当然也有 `elsif` 判断多次。
 
-``` SQL
+```SQL
 declare
     -- 定义带默认值变量
     v_name varchar2(1) := 'B';
