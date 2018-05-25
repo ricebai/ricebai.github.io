@@ -69,6 +69,10 @@ begin
 end;
 ```
 
+运行结果
+
+![=a](https://ricebai.github.io/img/posts/oracle-block/=a.jpg)
+
 #### ELSE
 
 在语句块中，`if` 条件不成立则会进入 `else`。
@@ -89,6 +93,10 @@ begin
 end;
 ```
 
+运行结果
+
+![!=a](https://ricebai.github.io/img/posts/oracle-block/!=a.jpg)
+
 当然也有 `elsif` 判断多次。
 
 ```SQL
@@ -105,5 +113,9 @@ begin
     end if;
 end;
 ```
+
+运行结果
+
+![=b](https://ricebai.github.io/img/posts/oracle-block/=b.jpg)
 
 ### 存储过程
