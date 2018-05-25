@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Oracle 语句块
-subtitle:   Oracle Begin...End 语句块、IF的应用
+subtitle:   Oracle Begin...End 语句块、IF 的应用
 date:       2018-05-18
 author:     ricebai
 header-img: img/posts/plsql/post-bg-plsql.png
