@@ -117,5 +117,3 @@ end;
 运行结果
 
 ![=b](https://ricebai.github.io/img/posts/oracle-block/=b.jpg)
-
-### 存储过程
