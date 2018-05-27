@@ -26,108 +26,126 @@ Oracle 异常错误传播:
 
 > 预定义说明的部分 ORACLE 异常错误
 
-<table width="100%">
-  <tr>
-    <td width="120">错误号</td>
-    <td>异常错误信息名称</td>
-    <td>说明</td>
-  </tr>
-  <tr>
-    <td>ORA-0001</td>
-    <td>Dup_val_on_index</td>
-    <td>违反了唯一性限制</td>
-  </tr>
-  <tr>
-    <td>ORA-0051</td>
-    <td>Timeout-on-resource</td>
-    <td>在等待资源时发生超时</td>
-  </tr>
-  <tr>
-    <td>ORA-0061</td>
-    <td>Transaction-backed-out</td>
-    <td>由于发生死锁事务被撤消</td>
-  </tr>
-  <tr>
-    <td>ORA-1001</td>
-    <td>Invalid-CURSOR</td>
-    <td>试图使用一个无效的游标</td>
-  </tr>
-  <tr>
-    <td>ORA-1012</td>
-    <td>Not-logged-on</td>
-    <td>没有连接到ORACLE</td>
-  </tr>
-  <tr>
-    <td>ORA-1017</td>
-    <td>Login-denied</td>
-    <td>无效的用户名/口令</td>
-  </tr>
-  <tr>
-    <td>ORA-1403</td>
-    <td>No_data_found</td>
-    <td>SELECT INTO没有找到数据</td>
-  </tr>
-  <tr>
-    <td>ORA-1422</td>
-    <td>Too_many_rows</td>
-    <td>SELECT INTO 返回多行</td>
-  </tr>
-  <tr>
-    <td>ORA-1476</td>
-    <td>Zero-divide</td>
-    <td>试图被零除</td>
-  </tr>
-  <tr>
-    <td>ORA-1722</td>
-    <td>Invalid-NUMBER</td>
-    <td>转换一个数字失败</td>
-  </tr>
-  <tr>
-    <td>ORA-6500</td>
-    <td>Storage-error</td>
-    <td>内存不够引发的内部错误</td>
-  </tr>
-  <tr>
-    <td>ORA-6501</td>
-    <td>Program-error</td>
-    <td>内部错误</td>
-  </tr>
-  <tr>
-    <td>ORA-6502</td>
-    <td>Value-error</td>
-    <td>转换或截断错误</td>
-  </tr>
-  <tr>
-    <td>ORA-6504</td>
-    <td>Rowtype-mismatch</td>
-    <td>宿主游标变量与 PL/SQL变量有不兼容行类型</td>
-  </tr>
-  <tr>
-    <td>ORA-6511</td>
-    <td>CURSOR-already-OPEN</td>
-    <td>试图打开一个已处于打开状态的游标</td>
-  </tr>
-  <tr>
-    <td>ORA-6530</td>
-    <td>Access-INTO-null</td>
-    <td>试图为null 对象的属性赋值</td>
-  </tr>
-  <tr>
-    <td>ORA-6531</td>
-    <td>Collection-is-null</td>
-    <td>试图将Exists 以外的集合( collection)方法应用于一个null pl/sql 表上或varray上</td>
-  </tr>
-  <tr>
-    <td>ORA-6532</td>
-    <td>Subscript-outside-limit</td>
-    <td>对嵌套或varray索引得引用超出声明范围以外</td>
-  </tr>
-  <tr>
-    <td>ORA-6533</td>
-    <td>Subscript-beyond-count</td>
-    <td>对嵌套或varray 索引得引用大于集合中元素的个数.</td>
-  </tr>
-</table>
+<TABLE WIDTH="100%">
+  <TR>
+    <TD WIDTH="120">错误号</TD>
+    <TD>异常错误信息名称</TD>
+    <TD>说明</TD>
+  </TR>
+  <TR>
+    <TD>ORA-0001</TD>
+    <TD>DUP_VAL_ON_INDEX</TD>
+    <TD>违反了唯一性限制</TD>
+  </TR>
+  <TR>
+    <TD>ORA-0051</TD>
+    <TD>TIMEOUT-ON-RESOURCE</TD>
+    <TD>在等待资源时发生超时</TD>
+  </TR>
+  <TR>
+    <TD>ORA-0061</TD>
+    <TD>TRANSACTION-BACKED-OUT</TD>
+    <TD>由于发生死锁事务被撤消</TD>
+  </TR>
+  <TR>
+    <TD>ORA-1001</TD>
+    <TD>INVALID-CURSOR</TD>
+    <TD>试图使用一个无效的游标</TD>
+  </TR>
+  <TR>
+    <TD>ORA-1012</TD>
+    <TD>NOT-LOGGED-ON</TD>
+    <TD>没有连接到ORACLE</TD>
+  </TR>
+  <TR>
+    <TD>ORA-1017</TD>
+    <TD>LOGIN-DENIED</TD>
+    <TD>无效的用户名/口令</TD>
+  </TR>
+  <TR>
+    <TD>ORA-1403</TD>
+    <TD>NO_DATA_FOUND</TD>
+    <TD>SELECT INTO没有找到数据</TD>
+  </TR>
+  <TR>
+    <TD>ORA-1422</TD>
+    <TD>TOO_MANY_ROWS</TD>
+    <TD>SELECT INTO 返回多行</TD>
+  </TR>
+  <TR>
+    <TD>ORA-1476</TD>
+    <TD>ZERO-DIVIDE</TD>
+    <TD>试图被零除</TD>
+  </TR>
+  <TR>
+    <TD>ORA-1722</TD>
+    <TD>INVALID-NUMBER</TD>
+    <TD>转换一个数字失败</TD>
+  </TR>
+  <TR>
+    <TD>ORA-6500</TD>
+    <TD>STORAGE-ERROR</TD>
+    <TD>内存不够引发的内部错误</TD>
+  </TR>
+  <TR>
+    <TD>ORA-6501</TD>
+    <TD>PROGRAM-ERROR</TD>
+    <TD>内部错误</TD>
+  </TR>
+  <TR>
+    <TD>ORA-6502</TD>
+    <TD>VALUE-ERROR</TD>
+    <TD>转换或截断错误</TD>
+  </TR>
+  <TR>
+    <TD>ORA-6504</TD>
+    <TD>ROWTYPE-MISMATCH</TD>
+    <TD>宿主游标变量与 PL/SQL变量有不兼容行类型</TD>
+  </TR>
+  <TR>
+    <TD>ORA-6511</TD>
+    <TD>CURSOR-ALREADY-OPEN</TD>
+    <TD>试图打开一个已处于打开状态的游标</TD>
+  </TR>
+  <TR>
+    <TD>ORA-6530</TD>
+    <TD>ACCESS-INTO-NULL</TD>
+    <TD>试图为NULL 对象的属性赋值</TD>
+  </TR>
+  <TR>
+    <TD>ORA-6531</TD>
+    <TD>COLLECTION-IS-NULL</TD>
+    <TD>试图将EXISTS 以外的集合( COLLECTION)方法应用于一个NULL PL/SQL 表上或VARRAY上</TD>
+  </TR>
+  <TR>
+    <TD>ORA-6532</TD>
+    <TD>SUBSCRIPT-OUTSIDE-LIMIT</TD>
+    <TD>对嵌套或VARRAY索引得引用超出声明范围以外</TD>
+  </TR>
+  <TR>
+    <TD>ORA-6533</TD>
+    <TD>SUBSCRIPT-BEYOND-COUNT</TD>
+    <TD>对嵌套或VARRAY 索引得引用大于集合中元素的个数.</TD>
+  </TR>
+</TABLE>
+
+#### 示例
+
+通过 `id` 查询表数据，并捕获 `ORA-1403` 错误。
+
+``` SQL
+declare
+  -- 定义变量
+  v_no demo_budget.pid%type ;
+begin
+  -- 查询值
+  select pid INTO v_no from demo_budget where id = 'B' ;
+exception
+  -- ORA-1403 错误
+  when no_data_found then
+       dbms_output.put_line('v_no is null!');
+end;
+```
 
 ### 非预定义异常
 
