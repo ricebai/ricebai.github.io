@@ -159,17 +159,22 @@ pragma exception_init(异常, SQL错误代码);
 
 ``` SQL
 declare
+
   -- 定义变量
   v_no demo_budget.pid%type;
+
   -- 自定义异常
   e_1403 exception;
+
   -- ora-1403 对应sqlcode 100
   -- 将 e_1403 与 ora-1403 错误关联起来
   pragma exception_init(e_1403, 100);
 begin
+
   -- 查询值
   select pid into v_no from demo_budget where id = 'B';
 exception
+
   -- ora-1403 错误
   when e_1403 then
     dbms_output.put_line('1403 error !');
