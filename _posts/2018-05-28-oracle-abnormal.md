@@ -151,7 +151,11 @@ end;
 
 非预定义错误，将其定义好的异常与标准的 ORACLE 错误关联起来，使用 `exception_init` 语句。
 
-语法 pragma exception_init(异常, SQL错误代码);
+#### 语法
+
+pragma exception_init(异常, SQL错误代码);
+
+#### 示例
 
 ``` SQL
 declare
@@ -176,6 +180,8 @@ end;
 
 用户定义错误是通过显式使用 `raise` 语句来触发。当引发一个异常错误时，控制就转向到 `exception` 块异常错误部分执行错误处理代码。
 
+#### 示例
+
 ``` SQL
 declare
   -- 自定义异常
@@ -196,7 +202,7 @@ begin
 end;
 ```
 
-### sql%
+#### sql%
 
 `sql%notfound` 是一个布尔值。与最近的sql语句（`update`，`insert`，`delete`，`select`）发生交互，当最近的一条sql语句没有涉及任何行的时候，则返回 `true`。否则返回 `false`。这样的语句在实际应用中，是非常有用的。
 
