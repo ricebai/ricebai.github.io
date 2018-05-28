@@ -203,7 +203,7 @@ begin
 
   exception
   when e_result then
-       dbms_output.put_line('not find result !');
+       dbms_output.put_line('update 0 !');
 end;
 ```
 
