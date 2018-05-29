@@ -18,37 +18,37 @@ Android Studio 运行程序。
 
 完成 [Android Studio 创建 ](https://ricebai.github.io/2018/05/03/android-studio-create) 后，右上角的运行按钮已经为可用的绿色状态。
 
-![but](../img/posts/android-studio-run/but.jpg)
+![but](https://ricebai.github.io/img/posts/android-studio-run/but.jpg)
 
 #### Virtual Device
 
 点击运行，进入虚拟机选择界面，我们点击 `Create New Virtual Device` 创建一个新的虚拟机。
 
-![device](../img/posts/android-studio-run/device.jpg)
+![device](https://ricebai.github.io/img/posts/android-studio-run/device.jpg)
 
 这里选择支持手机型号的虚拟机，我选择了支持 `Pay Store` 的 `Nexus 5X`，当然你们可以选择其他，点击 `next`。
 
-![device](../img/posts/android-studio-run/device1.jpg)
+![device](https://ricebai.github.io/img/posts/android-studio-run/device1.jpg)
 
 这里选择对应系统，我选择了 `Android 8.0 Oreo`，点击 `Download`。
 
-![device](../img/posts/android-studio-run/device2.jpg)
+![device](https://ricebai.github.io/img/posts/android-studio-run/device2.jpg)
 
 同意协议
 
-![device](../img/posts/android-studio-run/device3.jpg)
+![device](https://ricebai.github.io/img/posts/android-studio-run/device3.jpg)
 
 下载并安装，完成后点击 `Finish`。
 
-![device](../img/posts/android-studio-run/device4.jpg)
+![device](https://ricebai.github.io/img/posts/android-studio-run/device4.jpg)
 
 选中安装好的虚拟机，点击 `next`，点击 `Finish`。
 
-![device](../img/posts/android-studio-run/device5.jpg)
+![device](https://ricebai.github.io/img/posts/android-studio-run/device5.jpg)
 
 如果不幸遇到这种情况，计算机不支持硬件加速虚拟化
 
-![device](../img/posts/android-studio-run/device7.jpg)
+![device](https://ricebai.github.io/img/posts/android-studio-run/device7.jpg)
 
 可以尝试重启电脑进入 BIOS，设置 Intel  Virtualization Technology 这个选项为 `Enable` 。
 
@@ -56,14 +56,14 @@ Android Studio 运行程序。
 
 虚拟机启动成功，运行 APP。
 
-![device](../img/posts/android-studio-run/run.jpg)
+![device](https://ricebai.github.io/img/posts/android-studio-run/run.jpg)
 
 ### 虚拟机管理
 
 再次进入虚拟机管理
 
-![device](../img/posts/android-studio-run/device8.jpg)
+![device](https://ricebai.github.io/img/posts/android-studio-run/device8.jpg)
 
 找到安装好的虚拟机，点击运行。
 
-![device](../img/posts/android-studio-run/device9.jpg)
+![device](https://ricebai.github.io/img/posts/android-studio-run/device9.jpg)
