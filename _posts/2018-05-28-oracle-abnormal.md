@@ -2,7 +2,7 @@
 layout:     post
 title:      Oracle 异常
 subtitle:   Oracle 异常的分类与使用
-date:       2018-05-21
+date:       2018-05-28
 author:     ricebai
 header-img: img/posts/plsql/post-bg-plsql.png
 catalog: true
@@ -10,7 +10,7 @@ tags:
     - Oracle
 ---
 
-# 异常
+# EXCEPTION
 
 异常情况处理( EXCEPTION )是用来处理正常执行过程中未预料的事件,程序块的异常处理预定义的错误和自定义错误,由于 PL/SQL 程序块一旦产生异常而没有指出如何处理时,程序就会自动终止整个程序运行。
 
