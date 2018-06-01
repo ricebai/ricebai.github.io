@@ -80,6 +80,7 @@ is
     -- 声明函数
     function f_add (i_b in number) return number;
 end pgk_test;
+
 / -- 斜杠
 -- 创建包体
 create or replace package body pgk_test
