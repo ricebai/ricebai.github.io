@@ -26,7 +26,7 @@ tags:
 ``` SQL
 create or replace package pgk_test
 is
-    -- 定义一个存储过程
+    -- 声明存储过程
     procedure p_print;
 end pgk_test;
 ```
