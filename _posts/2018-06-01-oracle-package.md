@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Oracle 包
-subtitle:   Oracle 包和包体以及与非包体定义函数、过程的区别
+title:      Oracle 包和包体
+subtitle:   Oracle 包和包体的区别与应用
 date:       2018-06-01
 author:     ricebai
 header-img: img/posts/plsql/post-bg-plsql.png
@@ -12,16 +12,30 @@ tags:
 
 # Package
 
-包是一组相关过程、函数、变量、常量#SinaEditor_Temp_FontName、类型和游标等PL/SQL程序设计元素的组合。包具有面向对象设计的特点，是对这些PL/SQL程序设计元素的封装。
+包是一组相关过程、函数、变量、常量、类型和游标等PL/SQL程序设计元素的组合。包具有面向对象设计的特点，是对这些PL/SQL程序设计元素的封装。
 
 一个包由两个分开的部分组成：  
 
 - 包，定义部分是创建包的规范说明，声明包内 [数据类型、变量、常量](https://ricebai.github.io/2018/05/21/oracle-declare/#declare)、游标等元素。这部分也是为使用者提供了透明的接口。
 - 包体，是包定义部分的具体实现。
 
+将有联系的对象打成包,方便使用
+
+包中对象包括 [储存过程,函数,游标](https://ricebai.github.io/2018/05/31/oracle-sp/) , [自定义类型和变量](https://ricebai.github.io/2018/05/21/oracle-declare/) ,可以在 [语句块](https://ricebai.github.io/2018/05/18/oracle-block/) 中应用这些对象.
+
+
 ### 包
 
-创建 `pgk_test` 包，并声明一个存储过程 `p_print`。
+只有当包头编辑成功后才能编辑包体。
+
+- 包说明和包体必须有相同的名字
+- 包的开始没有begin语句，与存储过程和函数不同
+- 在包的说明部分定义函数和过程的名称和参数，具体实现在包体中定义
+- 在包内声明常量、变量、类型定义、异常、及游标时不使用declare
+- 包内的过程和函数的定义不要create or replace语句
+- 包声明和包体两者分离
+
+示例：创建 `pgk_test` 包，并声明一个存储过程 `p_print`。
 
 ``` SQL
 create or replace package pgk_test
@@ -32,6 +46,8 @@ end pgk_test;
 ```
 
 ### 包体
+
+包体其中的函数名与过程名须和包头中的函数过程一样。
 
 创建 `pgk_test` 包体，并实现存储过程 `p_print`。
 
