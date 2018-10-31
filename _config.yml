@@ -1,13 +1,13 @@
 # Site settings
-title: 90年代号的博客
-SEOTitle: 90年代号的博客
+title: zKnng Blog
+SEOTitle: zKnng Blog
 header-img: img/home-bg.jpg
 email: ricebai.me@gmail.com
 description: "Every failure is leading towards success."
-keyword: "Ricebai, Ricebai Blog, 90年代号的博客"
+keyword: "zKnng, zKnng Blog"
 url: "http://ricebai.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog #hosted on 'host/blog'
-github_repo: "https://github.com/ricebai/ricebai.github.io.git" # you code repository
+github_repo: "https://github.com/zknng/zknng.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
