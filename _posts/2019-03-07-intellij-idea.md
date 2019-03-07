@@ -68,3 +68,13 @@ Settings - Editor - Font
 
 jsp编辑区右上角总是有快捷浏览器启动选项，这里可以关闭
 ![browser](https://ricebai.github.io/img/posts/intellij-idea/browser.jpg)
+
+#### 快捷键设置
+
+快速键入快捷键查询，修改。
+![keymap](https://ricebai.github.io/img/posts/intellij-idea/keymap.jpg)
+
+#### 编码
+
+修改工作控件编码为统一格式
+![encoding](https://ricebai.github.io/img/posts/intellij-idea/encoding.jpg)
