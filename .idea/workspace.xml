@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63d548c4-718a-43e8-a4fa-6883b16a754e" name="Default Changelist" comment="删除 svn">
-      <change beforePath="$PROJECT_DIR$/_posts/2019-03-07-intellij-idea.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-03-07-intellij-idea.md" afterDir="false" />
-    </list>
+    <list default="true" id="63d548c4-718a-43e8-a4fa-6883b16a754e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +14,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-03-07-intellij-idea.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="211">
-                <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+              <first_editor relative-caret-position="54">
+                <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               </first_editor>
               <second_editor />
             </state>
@@ -126,7 +124,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551948305905" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551948583380" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -166,7 +164,7 @@
       <workItem from="1551752259541" duration="2012000" />
       <workItem from="1551756343719" duration="4153000" />
       <workItem from="1551834688232" duration="4004000" />
-      <workItem from="1551941067007" duration="5730000" />
+      <workItem from="1551941067007" duration="5907000" />
     </task>
     <task id="LOCAL-00001" summary="删除 svn">
       <created>1551754191058</created>
@@ -203,11 +201,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551947944456</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="intellij-idea">
+      <created>1551948290270</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1551948290270</updated>
+    </task>
+    <task id="LOCAL-00007" summary="intellij-idea">
+      <created>1551948312014</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1551948312014</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15899000" />
+    <option name="totallyTimeSpent" value="16076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1394" height="916" extended-state="6" />
@@ -455,8 +467,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-03-07-intellij-idea.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="211">
-            <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+          <first_editor relative-caret-position="54">
+            <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           </first_editor>
           <second_editor />
         </state>
