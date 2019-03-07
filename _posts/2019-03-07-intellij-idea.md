@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      IntelliJ IDEA
-subtitle:   IntelliJ IDEA 
+subtitle:   IntelliJ IDEA 快速使用说明简介
 date:       2019-03-07
 author:     ricebai
 header-img: img/posts/intellij-idea/intellij-idea-bg.png
