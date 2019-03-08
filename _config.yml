@@ -98,9 +98,6 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "MyFindro",
-        href: "https://findor.me/ricebai"
-    },{
         title: "Telegram",
         href: "https://t.me/ricebai"
     },{
