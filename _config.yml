@@ -1,10 +1,10 @@
 # Site settings
-title: 90Era Blog
-SEOTitle: 90Era Blog
+title: 90年代号的博客|90's
+SEOTitle: 90's
 header-img: img/home-bg.jpg
 email: ricebai.me@gmail.com
 description: "Every failure is leading towards success."
-keyword: "90年代号,90年代号 Blog,90Era Blog"
+keyword: "90年代号, 90's blog"
 url: "http://ricebai.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog #hosted on 'host/blog'
 github_repo: "https://github.com/ricebai/ricebai.github.io.git" # you code repository
@@ -108,9 +108,9 @@ friends: [
         href: "https://bcbz.github.io/"
     },{
         title: "Apple",
-        href: "https://apple.com"
+        href: "https://www.apple.com/cn/"
     },{
         title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        href: "https://developer.apple.com/cn/"
     }
 ]
