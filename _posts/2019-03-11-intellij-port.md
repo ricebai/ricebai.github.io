@@ -13,11 +13,15 @@ tags:
 
 Error Running 'Tomcat 7.0.62'
 
-这个是 Tomcat 启动 WEB 项目端口占用异常。
+### 错误信息
+
+Tomcat Debuger 启动 WEB 项目端口 `52177` 被占用。
 
 ![port](https://ricebai.github.io/img/posts/intellij-idea/port1.jpg)
 
-解决办法
+### 解决办法
+
+点击 `Edit Configurations...` 修改 `Port` 端口数字即可。
 
 ![port](https://ricebai.github.io/img/posts/intellij-idea/port2.jpg)
 
