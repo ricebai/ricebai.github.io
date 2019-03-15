@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      IntelliJ IDEA
-subtitle:   IntelliJ IDEA 常用设置收集说明
+title:      IntelliJ Settings
+subtitle:   IntelliJ Settings 常用设置收集说明
 date:       2019-03-10
 author:     ricebai
 header-img: img/posts/intellij-idea/intellij-idea-bg.png

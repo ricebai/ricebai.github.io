@@ -27,12 +27,12 @@ IntelliJ IDEA 分两个版本，一个是付费的，一个是免费的。同时
 #### 启动页新建
 
 启动页新建，点击 `Create New Project`。
-![create](../img/posts/intellij-idea/create1.jpg)
+![create](https://ricebai.github.io/img/posts/intellij-idea/create1.jpg)
 
 #### 菜单新建
 
 菜单新建，`File` -> `New` -> `Project...`
-![create](../img/posts/intellij-idea/create2.jpg)
+![create](https://ricebai.github.io/img/posts/intellij-idea/create2.jpg)
 
 ### SVN 使用
 
@@ -41,19 +41,19 @@ IntelliJ IDEA 分两个版本，一个是付费的，一个是免费的。同时
 #### 检出项目1
 
 启动页新建，点击 `Check out from Version Control` -> `Subversion`。
-![check](../img/posts/intellij-idea/check.jpg)
+![check](https://ricebai.github.io/img/posts/intellij-idea/check.jpg)
 
 #### 检出项目2
 
 菜单点击，`VCS` -> `Check out from Version Control` -> `Subversion`。
 
-![check2](../img/posts/intellij-idea/check2.jpg)
+![check2](https://ricebai.github.io/img/posts/intellij-idea/check2.jpg)
 
 #### 添加地址
 
 点 `+`，添加地址后点击`Checkout` 就行了。
 
-![check3](../img/posts/intellij-idea/check3.jpg)
+![check3](https://ricebai.github.io/img/posts/intellij-idea/check3.jpg)
 
 ### 快捷键
 
@@ -75,4 +75,4 @@ IntelliJ IDEA 分两个版本，一个是付费的，一个是免费的。同时
 |Ctrl+Shift+E|最近更改的文件|
 |Ctrl+Alt+S|打开设置|
 
-更多设置可以参考
+更多设置可以参考 [常用设置收集说明](https://ricebai.github.io/2019/03/10/intellij-settings/)
