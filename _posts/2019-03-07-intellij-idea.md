@@ -20,6 +20,41 @@ IntelliJ IDEA 分两个版本，一个是付费的，一个是免费的。同时
 ![download](https://ricebai.github.io/img/posts/intellij-idea/download.jpg)
 选择需要的版本下载运行并安装。
 
+### 项目新建
+
+项目新建既可以通过启动页新建，也可以通过菜单新建项目。
+
+#### 启动页新建
+
+启动页新建，点击 `Create New Project`。
+![create](../img/posts/intellij-idea/create1.jpg)
+
+#### 菜单新建
+
+菜单新建，`File` -> `New` -> `Project...`
+![create](../img/posts/intellij-idea/create2.jpg)
+
+### SVN 使用
+
+使用 SVN 时确保本地已经安装 [TortoiseSVN](https://ricebai.github.io/2018/05/07/tortoise-svn/)。
+
+#### 检出项目1
+
+启动页新建，点击 `Check out from Version Control` -> `Subversion`。
+![check](../img/posts/intellij-idea/check.jpg)
+
+#### 检出项目2
+
+菜单点击，`VCS` -> `Check out from Version Control` -> `Subversion`。
+
+![check2](../img/posts/intellij-idea/check2.jpg)
+
+#### 添加地址
+
+点 `+`，添加地址后点击`Checkout` 就行了。
+
+![check3](../img/posts/intellij-idea/check3.jpg)
+
 ### 快捷键
 
 熟悉常用的快捷键能提高代码编写效率。
@@ -40,41 +75,4 @@ IntelliJ IDEA 分两个版本，一个是付费的，一个是免费的。同时
 |Ctrl+Shift+E|最近更改的文件|
 |Ctrl+Alt+S|打开设置|
 
-### 常用优化
-
-让工具为我所用，当然需要熟悉关键的几个设置，下面我就来介绍部分设置（`Ctrl+Alt+S`）功能。
-
-#### 字体
-
-Settings - Editor - Font
-![font](https://ricebai.github.io/img/posts/intellij-idea/font.jpg)
-
-#### 启动后选择项目
-
-勾选则默认打开最后一个工程，反之启动工程则会出现选择页面。
-![last-project](https://ricebai.github.io/img/posts/intellij-idea/last-project.jpg)
-
-#### 联动目录变色
-
-修改文件后父级目录也会跟着变色
-![showdir](https://ricebai.github.io/img/posts/intellij-idea/showdir.jpg)
-
-#### 显示内存
-
-右下角显示内存占用信息
-![memory](https://ricebai.github.io/img/posts/intellij-idea/memory.jpg)
-
-#### 禁用快捷浏览器
-
-jsp编辑区右上角总是有快捷浏览器启动选项，这里可以关闭
-![browser](https://ricebai.github.io/img/posts/intellij-idea/browser.jpg)
-
-#### 快捷键设置
-
-快速键入快捷键查询，修改。
-![keymap](https://ricebai.github.io/img/posts/intellij-idea/keymap.jpg)
-
-#### 编码
-
-修改工作控件编码为统一格式
-![encoding](https://ricebai.github.io/img/posts/intellij-idea/encoding.jpg)
+更多设置可以参考
