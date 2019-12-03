@@ -26,8 +26,9 @@ war是一个可以直接运行的web模块，通常用于网站，打成包部�
 设置 `name` WAR包名称和保存路径，我这里放在c:\demo\ 文件夹中。
 ![artifacts](https://ricebai.github.io/img/posts/war/artifacts.jpg)
 
-
+build 按下图操作
 ![build_arifacts](https://ricebai.github.io/img/posts/war/build_arifacts.jpg)
 
 
 ![build](https://ricebai.github.io/img/posts/war/build.jpg)
+剩下的就是静静的等到war导出完成。
