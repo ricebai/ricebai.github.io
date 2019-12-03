@@ -18,7 +18,7 @@ war是一个可以直接运行的web模块，通常用于网站，打成包部�
 工具栏右上角点击设置按钮，打开设置界面
 ![open_setting](https://ricebai.github.io/img/posts/war/open_seting.jpg)
 
-### 添加 Artifacts
+### 添加
 
 选择 `Arifacts` ，点击 `+` 
 ![add_archive](https://ricebai.github.io/img/posts/war/add_archive.jpg)
@@ -26,6 +26,7 @@ war是一个可以直接运行的web模块，通常用于网站，打成包部�
 设置 `name` WAR包名称和保存路径，我这里放在c:\demo\ 文件夹中。
 ![artifacts](https://ricebai.github.io/img/posts/war/artifacts.jpg)
 
+### 导出WAR
 build 按下图操作
 ![build_arifacts](https://ricebai.github.io/img/posts/war/build_arifacts.jpg)
 
