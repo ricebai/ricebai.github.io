@@ -54,5 +54,5 @@ jekyll 目录结构
 
 ### 集成 Gitalk 评论插件
 
-可以参考：[BY Blog 博客添加 Gitalk 评论插件](http://qiubaiying.top/2017/12/19/为博客添加-Gitalk-评论插件/)。
+可以参考：[BY Blog 博客添加 Gitalk 评论插件](http://qiubaiying.top/2017/12/19/为博客添加-Gitalk-评论插件/)
 
